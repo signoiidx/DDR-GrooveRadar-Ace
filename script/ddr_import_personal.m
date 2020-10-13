@@ -29,7 +29,7 @@ opts = setvaropts(opts, ["besp", "bsp", "dsp", "esp", "csp", "bdp", "ddp", "edp"
 opts = setvaropts(opts, ["besp", "bsp", "dsp", "esp", "csp", "bdp", "ddp", "edp", "cdp"], "ThousandsSeparator", ",");
 
 % データのインポート
-ddr_personal = readtable("ddr_personal.csv", opts);
+ddr_personal = readtable("../ddr_personal.csv", opts);
 
 
 %% 一時変数のクリア

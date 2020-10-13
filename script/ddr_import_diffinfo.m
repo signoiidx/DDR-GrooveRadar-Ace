@@ -25,7 +25,7 @@ opts = setvaropts(opts, ["Il6980di8P89lil1PDIqqIbiq1QO8lQ", "title", "artist"], 
 opts = setvaropts(opts, ["Il6980di8P89lil1PDIqqIbiq1QO8lQ", "title", "artist"], "EmptyFieldRule", "auto");
 
 % データのインポート
-ddr_all_songs = readtable("./data/ddr_diffinfo_all.csv", opts);
+ddr_all_songs = readtable("../data/ddr_diffinfo_all.csv", opts);
 
 
 %% 一時変数のクリア
