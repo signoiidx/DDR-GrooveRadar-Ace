@@ -1,5 +1,7 @@
 # DDR Groove Radar Ace
   DDR Groove Radar Ace is a tool for evaluating DDR skill in DDR A.
+  
+  but use [this (DDRadar)](https://www.ddradar.app/)
 
 ## Installation
 - download release
